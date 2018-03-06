@@ -7,7 +7,7 @@ build:
         code: mvn install
 push:
   steps:
-    # Push to public docker repo
+    # Push to public docker repository
     - internal/docker-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
